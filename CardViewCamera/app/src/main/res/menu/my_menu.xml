@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title="item1"
+    android:id="@+id/item1">
+    <menu>
+        <item
+            android:title="item 11"
+            android:id="@+id/item11"
+            android:icon="@drawable/search"
+            />
+        <item
+            android:title="item 12"
+            android:id="@+id/item12"
+            />
+    </menu>
+</item>
+    <item
+        android:title="item 2"
+        android:id="@+id/item2"
+        />
+</menu>
